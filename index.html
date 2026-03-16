@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Kai Bailey — GIS Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>Kai Bailey — GIS Portfolio</h1>
+        <p class="subtitle">A showcase of selected GIS projects and maps that I have worked on.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="projects">
+        <!-- Example project cards. Duplicate and edit these for each project. -->
+        <article class="card">
+          <h2 class="card-title">Black Homeownership in Seattle (Shiny App)</h2>
+          <p class="card-description">Interactive tabbed map exploring Black homeownership patterns in Seattle. Built with R and Shiny; hosted on <em>shinyapps.io</em>. Built for a class during my Sophomore year at University.</p>
+          <a class="card-link" href="https://kaiba.shinyapps.io/final_project/" target="_blank" rel="noopener noreferrer">Open Shiny app</a>
+        </article>
+
+        <article class="card project-parks">
+          <h2 class="card-title">Seattle Parks — Interactive Trail Map</h2>
+          <p class="card-description">Seattle Parks &amp; Recreation launched an interactive trail map to enhance public park access. I was the primary data editor for this project. Read the announcement and open the live map below.</p>
+          <div class="card-links">
+            <a class="card-link" href="https://parkways.seattle.gov/2025/08/19/seattle-parks-and-recreation-launches-interactive-trail-map-system-to-enhance-public-park-access/" target="_blank" rel="noopener noreferrer">Read announcement</a>
+            <a class="card-link" href="https://seattlecitygis.maps.arcgis.com/apps/instant/basic/index.html?appid=72290f3c9d9a4bc3aed2f0b5d95610d4&utm_medium=email&utm_source=govdelivery" target="_blank" rel="noopener noreferrer">Open live map</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card-title">Duwamish Valley Project Map</h2>
+          <p class="card-description">Interactive map highlighting the Duwamish Valley Project area, community features, and planning resources. I was in charge of leading meetings with department heads, polygon maintenance, and data editing. Open the live map to explore layers and site-specific information.</p>
+          <a class="card-link" href="https://maps.seattle.gov/Duwamish-Valley-Project-Map" target="_blank" rel="noopener noreferrer">Open Duwamish Valley map</a>
+        </article>
+
+        <article class="card">
+          <h2 class="card-title">Seattle Museum Finder</h2>
+          <p class="card-description">An interactive museum finder for Seattle — search museums, view locations on a map, and access details for planning visits. I was in charge of the Isochrone distance, basemap, and routing directions API.</p>
+          <a class="card-link" href="https://jacw27.github.io/seattle-museum-finder/" target="_blank" rel="noopener noreferrer">Open Museum Finder</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Kai Bailey</p>
+      </div>
+    </footer>
+
+    <script>
+      // set current year in footer
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
