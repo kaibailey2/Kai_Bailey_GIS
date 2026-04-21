@@ -18,4 +18,8 @@ If you'd like, I can:
 - add a simple JSON-driven loader so projects can be maintained in `projects.json` instead of editing `index.html` directly
 - add icons, images, or a deployed demo link for each project
 
+Embedded dashboard:
+
+- The Black Homeownership project is embedded as an ArcGIS Online dashboard: https://kaibailey.maps.arcgis.com/apps/dashboards/52197331180444268fd82860fbca0060
+
 Kai Bailey's GIS Portfolio
