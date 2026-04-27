@@ -3,14 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Kai Bailey — GIS Portfolio</title>
+    <title>Kai Bailey's GIS Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <h1>Kai Bailey — GIS Portfolio</h1>
-        <p class="subtitle">A showcase of selected GIS projects and maps that I have worked on.</p>
+      <div class="container header-inner">
+        <div class="header-title">
+          <h1>Kai Bailey's GIS Portfolio</h1>
+          <p class="subtitle">A showcase of my favorite GIS projects I have worked on throughout my career.</p>
+        </div>
+        <div class="header-actions">
+          <!-- Replace the href with your LinkedIn profile URL -->
+          <a class="social-link" href="https://www.linkedin.com/in/kai-bailey-67a480262" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6C1.12 6 0 4.88 0 3.5C0 2.12 1.12 1 2.5 1C3.87 1 4.98 2.12 4.98 3.5ZM0.5 23.5H4.5V7.5H0.5V23.5ZM8.5 23.5H12.5V15.7C12.5 13.1 18 12.8 18 15.7V23.5H22V14.2C22 8.6 16.97 8 14.2 10.3V10.3C13.6 9.6 12.6 9 11.5 9C8.5 9 8.5 11.4 8.5 14.1V23.5Z" fill="currentColor" />
+            </svg>
+            <span class="social-text">LinkedIn</span>
+          </a>
+        </div>
       </div>
     </header>
 
@@ -18,33 +29,53 @@
       <section class="projects">
         <!-- Example project cards. Duplicate and edit these for each project. -->
         <article class="card">
-          <h2 class="card-title">Unofficial County of Los Angeles Infastructure (ArcGIS Dashboard)</h2>
-          <p class="card-description">Interactive dashboard exploring various infrastructure projects of Los Angeles. Embedded from ArcGIS Online for a seamless, responsive view.</p>
-          <a class="card-link" href="https://kaibailey.maps.arcgis.com/apps/dashboards/52197331180444268fd82860fbca0060" target="_blank" rel="noopener noreferrer">Open dashboard in new tab</a>
+          <div class="card-media">
+            <img class="thumb-img" src="images/dashboardthumbnail.png" alt="Project thumbnail">
+          </div>
+          <div class="card-body">
+            <h2 class="card-title">Unofficial County of Los Angeles Infastructure (ArcGIS Dashboard)</h2>
+            <p class="card-description">Interactive dashboard exploring various infrastructure projects of Los Angeles. I created this using ArcGIS Dashboards so that I could practice my ArcGIS Online skills and get familiar with the variety of apps ESRI offers. This map was heavily inspired by LA County Public Works' Infrastructure Dashboard, which is linked on the splash page when you open the dashboard.</p>
+            <a class="card-link" href="https://kaibailey.maps.arcgis.com/apps/dashboards/52197331180444268fd82860fbca0060" target="_blank" rel="noopener noreferrer">Open dashboard in new tab</a>
+          </div>
         </article>
 
         <article class="card project-parks">
-          <h2 class="card-title">Seattle Parks — Interactive Trail Map</h2>
-          <p class="card-description">Seattle Parks &amp; Recreation launched an interactive trail map to enhance public park access. I was the primary data editor for this project. Read the announcement and open the live map below.</p>
-          <div class="card-links">
-            <a class="card-link" href="https://parkways.seattle.gov/2025/08/19/seattle-parks-and-recreation-launches-interactive-trail-map-system-to-enhance-public-park-access/" target="_blank" rel="noopener noreferrer">Read announcement</a>
-            <a class="card-link" href="https://seattlecitygis.maps.arcgis.com/apps/instant/basic/index.html?appid=72290f3c9d9a4bc3aed2f0b5d95610d4&utm_medium=email&utm_source=govdelivery" target="_blank" rel="noopener noreferrer">Open live map</a>
+          <div class="card-media">
+            <img class="thumb-img" src="images/ParkTrailsMapThumbnail.png" alt="Seattle Parks thumbnail">
+          </div>
+          <div class="card-body">
+            <h2 class="card-title">Seattle Parks — Interactive Trail Map</h2>
+            <p class="card-description">Seattle Parks &amp; Recreation launched an interactive trail map to enhance public park access. My responsibilities included data editing using LiDAR, historical records, and aerial imagery. This project took months to complete since I had to manually edit over 200+ miles of park trails throughout Seattle. Read the announcement and open the live map below.</p>
+            <div class="card-links">
+              <a class="card-link" href="https://parkways.seattle.gov/2025/08/19/seattle-parks-and-recreation-launches-interactive-trail-map-system-to-enhance-public-park-access/" target="_blank" rel="noopener noreferrer">Read announcement</a>
+              <a class="card-link" href="https://seattlecitygis.maps.arcgis.com/apps/instant/basic/index.html?appid=72290f3c9d9a4bc3aed2f0b5d95610d4&utm_medium=email&utm_source=govdelivery" target="_blank" rel="noopener noreferrer">Open live map</a>
+            </div>
           </div>
         </article>
 
         <article class="card">
-          <h2 class="card-title">Duwamish Valley Project Map</h2>
-          <p class="card-description">Interactive map highlighting the Duwamish Valley Project area, community features, and planning resources. I was in charge of leading meetings with department heads, polygon maintenance, and data editing. Open the live map to explore layers and site-specific information.</p>
-          <div class="card-links">
-            <a class="card-link" href="https://maps.seattle.gov/Duwamish-Valley-Project-Map" target="_blank" rel="noopener noreferrer">Open Duwamish Valley map</a>
-            <a class="card-link" href="https://techtalk.seattle.gov/2026/03/24/from-ancient-maps-to-modern-marvels-seattle-its-one-of-a-kind-duwamish-valley-project-map/" target="_blank" rel="noopener noreferrer">Read TechTalk blog post</a>
+          <div class="card-media">
+            <img class="thumb-img" src="images/DuwamishThumbnail.png" alt="Duwamish Valley thumbnail">
+          </div>
+          <div class="card-body">
+            <h2 class="card-title">Duwamish Valley Project Map</h2>
+            <p class="card-description">Interactive map highlighting the Duwamish Valley Project area, community features, and planning resources. My responsibilities included leading meetings with department heads, polygon maintenance, symbology, and data editing. This map was the first of its kind for the City of Seattle, enhancing data discoverability through a centralized web map with data from multiple departments.</p>
+            <div class="card-links">
+              <a class="card-link" href="https://maps.seattle.gov/Duwamish-Valley-Project-Map" target="_blank" rel="noopener noreferrer">Open Duwamish Valley map</a>
+              <a class="card-link" href="https://techtalk.seattle.gov/2026/03/24/from-ancient-maps-to-modern-marvels-seattle-its-one-of-a-kind-duwamish-valley-project-map/" target="_blank" rel="noopener noreferrer">Read TechTalk blog post</a>
+            </div>
           </div>
         </article>
 
         <article class="card">
-          <h2 class="card-title">Seattle Museum Finder</h2>
-          <p class="card-description">An interactive museum finder for Seattle — search museums, view locations on a map, and access details for planning visits. I was in charge of the Isochrone distance, basemap, and routing directions API.</p>
-          <a class="card-link" href="https://jacw27.github.io/seattle-museum-finder/" target="_blank" rel="noopener noreferrer">Open Museum Finder</a>
+          <div class="card-media">
+            <img class="thumb-img" src="images/MuseumFinderThumbnail.png" alt="Museum Finder thumbnail">
+          </div>
+          <div class="card-body">
+            <h2 class="card-title">Seattle Museum Finder</h2>
+            <p class="card-description">An interactive museum finder for Seattle — search museums, view locations on a map, and access details for planning visits. This project was created as part of a final for a Web GIS course at the University of Washington. My responsibilities included the Isochrone distance, basemap, and routing directions API. This project taught me about Github Collaboration, HTML, CSS, and Javascript. It also taught me the skills to make this portfolio!</p>
+            <a class="card-link" href="https://jacw27.github.io/seattle-museum-finder/" target="_blank" rel="noopener noreferrer">Open Museum Finder</a>
+          </div>
         </article>
       </section>
     </main>
